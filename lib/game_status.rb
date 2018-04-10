@@ -31,10 +31,13 @@ end
 def draw?(board)
   if (won?(board) == FALSE && full?(board) == TRUE)
     TRUE
+  else
+    FALSE
   end
 end
 
 
 
 def over?(board)
+  if 
 end
