@@ -51,17 +51,13 @@ end
 def winner(board)
   if draw?(board) == TRUE
     nil
-  else won?(board) != FALSE
-    WIN_COMBINATIONS.find do |i|
-      i1 = i[0]
-      i2 = i[1]
-      i3 = i[2]
-      bi = [board[i1],board[i2],board[i3]]
-      if bi.all? {|ck| ck == "X"}
+  else 
+    won?(board)
+    if bi[0] == "X"}
         winner = "X"
-      else bi.all? {|ck| ck == "O"}
+    else bi.all? {|ck| ck == "O"}
+        bi[0] == "O"}
         winner = "O"
-      end
     end
     winner
   end
