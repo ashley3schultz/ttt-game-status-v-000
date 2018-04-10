@@ -47,6 +47,7 @@ def winner(board)
       winner = "X"
     else (bi.all? {|o| o == "O"})
       winner = "O"
+    end
   end
 end
 
