@@ -38,6 +38,6 @@ end
 
 
 def winner(board)
-  draw?(board)
+  over?(board)
 end
 
