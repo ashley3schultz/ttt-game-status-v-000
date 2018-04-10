@@ -38,22 +38,7 @@ end
 
 
 def winner(board)
-  if WIN_COMBINATIONS.detect do |wc|
-    wi1 = wc[0]
-    wi2 = wc[1]
-    wi3 = wc[2]
-    bi = [board[wi1],board[wi2],board[wi3]]
-    bi.all? {|x| x == "X"}
-    end
-    puts "X"
-  else WIN_COMBINATIONS.detect do |wc|
-    wi1 = wc[0]
-    wi2 = wc[1]
-    wi3 = wc[2]
-    bi = [board[wi1],board[wi2],board[wi3]]
-    bi.all? {|o| o == "O"}
-    end
-    puts "O"
-  end
+  won?(board)
+  puts "#{board[won?(board)[0]]""
 end
 
