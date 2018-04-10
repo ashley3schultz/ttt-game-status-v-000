@@ -25,19 +25,13 @@ end
 
 
 def full?(board)
-  if board.none? {|spaces| spaces == " "}
+  board.none? {|spaces| spaces == " "}
       TRUE
-    else 
-      FALSE
-    end
 end
 
 
 def draw?(board)
-  if won?(board) == FALSE && full?(board) == TRUE
-    TRUE
-  else
-    FALSE
+  won?(board) == FALSE && full?(board) == TRUE
 end
 
 
