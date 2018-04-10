@@ -14,6 +14,7 @@ def won?(board)
     if (bi.all? {|x| x == "X"} || bi.all? {|o| o == "O"})
     end
   end
+end
 
 
 
