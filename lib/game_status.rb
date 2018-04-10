@@ -21,6 +21,7 @@ def won?(board)
     board[i1]
   else board[i1] != "X" || board[i1] != "O"
     nil
+  end
 end
 
 
