@@ -38,6 +38,6 @@ end
 
 
 def winner(board)
-    if board[won?(board)[0]]
+    board[won?(board)[0]].is_a?(String)}
 end
 
