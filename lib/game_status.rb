@@ -56,5 +56,4 @@ def winner(board)
     puts "O"
   end
 end
-end
 
