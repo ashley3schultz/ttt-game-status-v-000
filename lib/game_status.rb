@@ -38,7 +38,7 @@ end
 
 
 def winner(board)
-  draw?(board)
+  if draw?(board)
     nil
   !draw?(board)
     board[won?(board)[0]]
