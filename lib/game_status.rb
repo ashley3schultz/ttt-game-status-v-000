@@ -11,7 +11,7 @@ def won?(board)
     i2 = i[1]
     i3 = i[2]
     bi = [board[i1],board[i2],board[i3]]
-    if bi.select? {|ck| ck == "X"} || bi.all? {|ck| ck == "O"}
+    if bi.select? {|ck| ck == "X"} || bi.select {|ck| ck == "O"}
     end
   end
 end
