@@ -40,7 +40,6 @@ end
 def winner(board)
   if board[won?(board)[0]] == "X" || board[won?(board)[0]] == "O"
     board[won?(board)[0]]
-  else
     won?(board)
   end
 end
