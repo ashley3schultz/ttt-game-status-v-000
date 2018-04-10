@@ -50,7 +50,6 @@ end
 def winner(board)
   if over?(board) = TRUE
     won?(board)
-    winner
   else
     nil
   end
