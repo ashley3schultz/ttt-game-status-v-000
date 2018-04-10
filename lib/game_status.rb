@@ -38,6 +38,6 @@ end
 
 
 def winner(board)
-  draw?(board) || board[won?(board)[0]]
+  draw?(board)
 end
 
