@@ -30,22 +30,12 @@ end
 
 
 def draw?(board)
-  if (won?(board) == FALSE && full?(board) == TRUE)
-    TRUE
-  else (won?(board) == FALSE && full?(board) == FALSE)
-    FALSE
-  end
 end
 
 
 
 def over?(board)
-  won?(board)
-  full?(board)
-  draw?(board)
-    
-    TRUE
-  else full?(board) == TRUE
+  else full?(board) == TRUE || draw?(board) == TRUE
     TRUE
   end
 end
