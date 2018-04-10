@@ -39,6 +39,6 @@ end
 def winner(board)
   won?(board)
   bi.all? {|x| x == "X" puts "X"}
-  end
+  bi.all? {|o| o == "X" puts "O"}
 end 
 
