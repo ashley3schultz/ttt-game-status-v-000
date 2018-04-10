@@ -53,10 +53,7 @@ def winner(board)
     nil
   else 
     won?(board)
-    if bi[0] == "X"
-        winner = "X"
-    else bi[0] == "O"
-        winner = "O"
+    winner = bi[0]
     end
     winner
   end
