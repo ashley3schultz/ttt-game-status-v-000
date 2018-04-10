@@ -34,12 +34,8 @@ end
 
 
 def draw?(board)
-  won?(board) 
-  if win == FALSE && full?(board) == TRUE
+  won?(board) == FALSE && full?(board) == TRUE
     TRUE
-  else 
-    FALSE
-  end
 end
 
 
