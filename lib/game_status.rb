@@ -38,11 +38,7 @@ end
 
 
 def winner(board)
-  if !draw?(board)
-    winner_i = [won?(board)]
-    board[winner_i[0][0]]
-  else
-    draw?(board)
-  end
+  winner_i = [won?(board)][0]
+  board[winner_i[0]]
 end
 
