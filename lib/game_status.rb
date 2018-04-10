@@ -49,6 +49,7 @@ def winner(board)
     else
       winner = nil
     end
+  end
   puts "#{winner}"
 end 
 
