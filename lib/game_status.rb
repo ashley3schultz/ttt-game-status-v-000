@@ -38,7 +38,6 @@ end
 
 
 def winner(board)
-  won?(board).select {|char|
-  winner = board[char[0]]
+  won?(board).select {|char| char == [0]
 end
 
