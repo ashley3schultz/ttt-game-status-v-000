@@ -15,7 +15,6 @@ def won?(board)
       win = wc
     else
       win = FALSE
-    end
   end
   win
 end
