@@ -13,6 +13,7 @@ def won?(board)
     bi = [board[wi1],board[wi2],board[wi3]]
     bi.all? {|ck| ck == "X"} || bi.all? {|ck| ck == "O"}
   end
+  if 
 end
 
 
