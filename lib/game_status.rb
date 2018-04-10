@@ -43,5 +43,6 @@ def winner(board)
     board[winner_i[0][0]]
   else
     draw?(board)
+  end
 end
 
