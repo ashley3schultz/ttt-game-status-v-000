@@ -17,7 +17,10 @@ def won?(board)
       nil
     end
   end
-  if winner = bi[0]
+  if board[i1] == "X" || board[i1] == "O"
+    board[i1]
+  else board[i1] != "X" || board[i1] != "O"
+    nil
 end
 
 
