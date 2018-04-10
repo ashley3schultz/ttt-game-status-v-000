@@ -38,6 +38,7 @@ end
 
 
 def winner(board)
+  won?(board)
   winner_i = [won?(board)]
   board[winner_i[0][0]]
 end
