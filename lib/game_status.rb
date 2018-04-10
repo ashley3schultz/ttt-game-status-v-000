@@ -11,16 +11,8 @@ def won?(board)
     i2 = i[1]
     i3 = i[2]
     bi = [board[i1],board[i2],board[i3]]
-    if bi.all? {|ck| ck == "X"} || bi.all? {|ck| ck == "O"}
-      
-    else bi.all? {|ck| ck != "X"} || bi.all? {|ck| ck != "O"}
-      nil
+    if bi.select? {|ck| ck == "X"} || bi.all? {|ck| ck == "O"}
     end
-  end
-  if board[i1] == "X" || board[i1] == "O"
-    board[i1]
-  else board[i1] != "X" || board[i1] != "O"
-    nil
   end
 end
 
