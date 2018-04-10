@@ -18,6 +18,7 @@ def won?(board)
     else
       win = FALSE
     end
+    win
   end
 end
 
@@ -33,6 +34,7 @@ end
 
 
 def draw?(board)
+  
 end
 
 
