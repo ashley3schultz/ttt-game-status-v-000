@@ -39,5 +39,7 @@ end
 
 def winner(board)
   won?(board).select {|char| char == 0}
+  winner = [board[char[0]]]
+  puts "#{winner}"
 end
 
