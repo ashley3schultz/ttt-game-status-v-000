@@ -38,8 +38,7 @@ end
 
 
 def winner(board)
-  if won?(board)
-    puts "#{board[won?(board)[0]]}"
+  won?(board).find? {|char| spaces == " "}
   end
 end
 
