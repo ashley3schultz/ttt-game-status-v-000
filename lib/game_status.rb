@@ -11,9 +11,10 @@ def won?(board)
     wi2 = wc[1]
     wi3 = wc[2]
     bi = [board[wi1],board[wi2],board[wi3]]
-    bi.all? {|ck| ck == "X"} || bi.all? {|ck| ck == "O"}
-    wc
-    end
+    if bi.all? {|ck| ck == "X"} || bi.all? {|ck| ck == "O"}
+      win = wc
+    else
+      win = FALSE
   end
   wc
 end
