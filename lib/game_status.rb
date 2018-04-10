@@ -29,11 +29,7 @@ end
 
 
 def draw?(board)
-  if full?(board) == TRUE && won?(board) == FALSE 
-    TRUE
-  else
-    FALSE
-  end
+  full?(board) == TRUE && won?(board) == FALSE 
 end
 
 
