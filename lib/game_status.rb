@@ -15,6 +15,7 @@ def won?(board)
       wc
     else
       FALSE
+    end
   end
 end
 
