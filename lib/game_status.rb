@@ -45,13 +45,4 @@ def over?(board)
     TRUE
   end
 end
-
-
-def winner(board)
-  if over?(board) = TRUE
-    won?(board)
-  else
-    nil
-  end
-end
   
