@@ -26,10 +26,10 @@ end
 
 def full?(board)
   if board.none? {|spaces| spaces == " "}
-      TRUE
-    else 
-      FALSE
-    end
+    TRUE
+  else
+    FALSE
+  end
 end
 
 
