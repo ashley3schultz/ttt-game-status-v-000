@@ -38,7 +38,7 @@ end
 
 
 def winner(board)
-  won?(board).find? {|char| spaces == " "}
-  end
+  won?(board).select {|char|
+  winner = board[char[0]]
 end
 
