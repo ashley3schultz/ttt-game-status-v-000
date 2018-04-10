@@ -14,7 +14,7 @@ def won?(board)
     if bi.all? {|x| x == "X"}
       win = [wc[0],wc[1],wc[2]]
     elsif bi.all? {|o| o == "O"}
-      win = wc
+      win = [wc[0],wc[1],wc[2]]
     else
       win = FALSE
     end
