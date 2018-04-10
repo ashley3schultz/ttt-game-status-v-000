@@ -12,9 +12,7 @@ def won?(board)
     i3 = i[2]
     bi = [board[i1],board[i2],board[i3]]
     if bi.all? {|ck| ck == "X"} || bi.all? {|ck| ck == "O"}
-    TRUE
-  else
-    FALSE
+      i
     end
   end
 end
