@@ -35,10 +35,4 @@ end
 
 
 def over?(board)
-  else full?(board) == TRUE || draw?(board) == TRUE
-    TRUE
-  end
-end
-  
-def winner(boaed)
 end
