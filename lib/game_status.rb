@@ -49,13 +49,12 @@ end
 
 
 def winner(board)
-  if draw?(board) == TRUE
-    nil
-  else 
-    won?(board)
-    winner = bi[0]
-    end
+  won?(board)
+  winner = bi[0]
+  if winner == "X" || winner == "O"
     winner
+  else
+    nil
   end
 end
   
