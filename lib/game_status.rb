@@ -38,8 +38,8 @@ end
 
 
 def winner(board)
-  if draw?(board) != TRUE
-    board[won?(board)[0]]
+  !draw?(board)
+  board[won?(board)[0]]
   end
 end
 
