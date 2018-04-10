@@ -24,10 +24,8 @@ end
 
 
 def full?(board)
-  board.none? do |spaces|
-    if i == " "
+  board.none? {|spaces| spaces == " "}
       TRUE
-    end
   end
 end
 
