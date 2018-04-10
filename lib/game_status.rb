@@ -38,6 +38,7 @@ end
 
 
 def winner(board)
-  winner_i = [won?(board).select {|token| token = won?(board)[0]}
+  winner_i = [won?(board)]
+  winner_i[0][0]
 end
 
