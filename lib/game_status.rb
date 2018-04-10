@@ -37,7 +37,7 @@ def over?(board)
 end
 
 def winner(board)
-  won?(board)
+  WIN_COMBINATIONS.each do |wc|
   if bi.all? {|x| x == "X"}
     puts "X"
   else bi.all? {|o| o == "O"}
