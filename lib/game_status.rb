@@ -12,7 +12,9 @@ def won?(board)
     wi3 = wc[2]
     bi = [board[wi1],board[wi2],board[wi3]]
     (bi.all? {|x| x == "X"}) || (bi.all? {|o| o == "O"})
+    winner = bi[0]
   end
+  winner
 end
 
 
