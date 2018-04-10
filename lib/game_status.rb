@@ -39,6 +39,5 @@ end
 
 def winner(board)
   won?(board)
-    gets.bi[0]
 end
 
