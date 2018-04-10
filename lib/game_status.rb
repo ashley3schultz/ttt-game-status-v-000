@@ -38,7 +38,7 @@ end
 
 
 def winner(board)
-  if (board[won?(board)[0][0]] == "X") || (board[won?(board)[0][0] == "O")
+  if (board[won?(board)[0][0]] == "X") || (board[won?(board)[0][0]] == "O")
     board[won?(board)[0][0]]
   end
 end
