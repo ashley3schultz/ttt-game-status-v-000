@@ -38,9 +38,7 @@ end
 
 
 def winner(board)
-  if draw?(board) == TRUE
-    nil
-  else board[won?(board)[0]]
-end
+  draw?(board) == nil
+  board[won?(board)[0]]
 end
 
