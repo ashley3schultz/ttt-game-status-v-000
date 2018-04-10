@@ -51,8 +51,8 @@ end
 
 
 def winner(board)
-  won?(board)
-  if bi[0] == "X" || bi[0] == "O"
+  if over?(board) = TRUE
+    won?(board)
     winner
   else
     nil
