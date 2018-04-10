@@ -38,7 +38,6 @@ end
 
 
 def winner(board)
-  won?(board)
   puts "#{board[won?(board)[0]]""
 end
 
