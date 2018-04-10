@@ -40,6 +40,8 @@ end
 
 def winner(board)
   won?(board)
-  if 
+  if bi.all? {|x| x == "X"
+    puts "X"}
+    
 end 
 
