@@ -53,10 +53,9 @@ def winner(board)
     nil
   else 
     won?(board)
-    if bi[0] == "X"}
+    if bi[0] == "X"
         winner = "X"
-    else bi.all? {|ck| ck == "O"}
-        bi[0] == "O"}
+    else bi[0] == "O"
         winner = "O"
     end
     winner
