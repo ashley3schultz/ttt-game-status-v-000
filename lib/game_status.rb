@@ -12,9 +12,9 @@ def won?(board)
     i3 = i[2]
     bi = [board[i1],board[i2],board[i3]]
     if bi.all? {|ck| ck == "X"} || bi.all? {|ck| ck == "O"}
-      TRUE
     end
   end
+ bi[0] 
 end
 
 
@@ -50,8 +50,7 @@ end
 
 def winner(board)
   won?(board)
-  winner = bi[0]
-  if winner == "X" || winner == "O"
+  if bi[0] == "X" || bi[0] == "O"
     winner
   else
     nil
