@@ -39,6 +39,6 @@ end
 
 def winner(board)
   winner_i = [won?(board)]
-  winner_i[0]
+  winner_i[0][0]
 end
 
