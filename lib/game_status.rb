@@ -46,7 +46,7 @@ def winner(board)
       winner = "X"
     else bi.all? {|o| o == "O"}
       winner = "O"
-    else
+    else bi.all? {|nx| nx != "X"} || bi.all? {|no| no != "O"}
       winner = nil
     end
   end
