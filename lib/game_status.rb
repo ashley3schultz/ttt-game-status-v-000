@@ -37,15 +37,16 @@ def over?(board)
 end
 
 def winner(board)
-  WIN_COMBINATIONS.each do |wc|
+  WIN_COMBINATIONS.detect do |wc|
     wi1 = wc[0]
     wi2 = wc[1]
     wi3 = wc[2]
     bi = [board[wi1],board[wi2],board[wi3]]
     if bi.all? {|x| x == "X"}
-      puts "X"
+      winner = "X"
     else bi.all? {|o| o == "O"}
-      puts "O"
+      winner = "O"
   end
+  puts "#{winner}"
 end 
 
