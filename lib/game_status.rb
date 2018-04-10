@@ -39,5 +39,4 @@ end
 
 
 def over?(board)
-  if 
 end
