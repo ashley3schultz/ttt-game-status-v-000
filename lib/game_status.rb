@@ -38,6 +38,6 @@ end
 
 
 def winner(board)
-  over?(board)
+  won?(board)
 end
 
