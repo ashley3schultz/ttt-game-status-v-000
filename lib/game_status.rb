@@ -38,7 +38,6 @@ end
 
 
 def winner(board)
-  winner = won?(board).select[0]
-  puts "#{winner}"
+  won?(board).select {|token| token = won?(board)[0]
 end
 
