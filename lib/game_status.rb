@@ -44,7 +44,7 @@ def winner(board)
     bi = [board[wi1],board[wi2],board[wi3]]
     if bi.all? {|x| x == "X"}
       winner = "X"
-    else bi.all? {|o| o == "O"}
+    elsif bi.all? {|o| o == "O"}
       winner = "O"
     else bi.all? {|nx| nx != "X"} || bi.all? {|no| no != "O"}
       winner = nil
